@@ -1,0 +1,88 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 1;
+    padding: 0;
+    background-image: url(https://images.pexels.com/photos/1044989/pexels-photo-1044989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  }
+
+  /* Header styles */
+  
+  header{
+    
+    background-image:url("gaming4.gif") ;
+    opacity: 95%;
+    color:white ;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  
+  
+  /* Navigation styles */
+  nav {
+    background-color: #0f0c0c;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li 
+  {
+    display:inline-flex;
+    margin:0 15px;
+  }
+  
+  nav a {
+    color: #ecedf0;
+    text-decoration:wavy;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color:greenyellow;
+  }
+  
+  /* Main content styles */
+  main {
+    margin: 15px;
+  }
+  
+  section {
+    display:grid;
+    justify-content:space-evenly;
+    color: white;
+  }
+  
+  section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+  }
+
+  section h3 {
+    font-size: 20px;
+    margin-left: 10cm;
+    color: white;
+  }
+
+.blink {
+    animation: blinker 0.9s linear infinite;
+    color: greenyellow;
+    font-family: Arial,sans-serif;
+}
+@keyframes blinker {
+    40% {
+        opacity: 0;
+    }
+}
+
+
